@@ -1,5 +1,3 @@
-if(Meteor.isServer) {
-  Meteor.startup(() => {
-    // code to run on server at startup
-  });
-}
+import {loadIncidentTypesAndCategories} from "./load-incident-types-and-categories";
+
+Meteor.startup(loadIncidentTypesAndCategories);
