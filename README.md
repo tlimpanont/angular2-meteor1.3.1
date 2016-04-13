@@ -47,7 +47,7 @@ barbatus:angular2-runtime
 ```
 don't forget to do ``` meteor npm install ```
 
-5. Create a tsonfig.json
+5. Create a *tsonfig.json* in the root of your project
 ```
 {
   "compilerOptions": {
