@@ -1,3 +1,19 @@
+### Getting started without migration steps
+```
+git clone https://github.com/tlimpanont/angular2-meteor1.3.1.git
+```
+Use this project as a base project. Move your source codes (.ts, .css etc.) to this base project.
+For example:
+```
+client/
+  *.ts
+  index.html
+  collections
+    *.ts
+  server
+    *.ts
+```
+
 ## Situation
 You're already working on a Meteor 1.2.^ Angular2 project
 ## Goal
